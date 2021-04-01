@@ -1,0 +1,433 @@
+body {
+  margin: 0 auto;
+
+  box-sizing: border-box;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.container-main {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 135vh;
+}
+.photos-div {
+  display: flex;
+  width: 100%;
+  border-bottom: #bebebe 3px solid;
+
+  height: 34%;
+}
+.info-div {
+  width: 100%;
+}
+.images-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  height: 100%;
+}
+.nala {
+  max-height: 85%;
+}
+.main-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 77%;
+}
+.fa-close {
+  width: 30px;
+  color: black;
+  height: 20px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+.nala-box {
+  cursor: pointer;
+  width: 70%;
+  margin: 10px;
+}
+.nala-character {
+  width: 70%;
+  cursor: pointer;
+}
+
+.info {
+  width: 100%;
+
+  height: 250px;
+}
+.name-price {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  margin-top: -20px;
+}
+.original {
+  font-family: 'Luckiest Guy', cursive;
+  color: #bfbfbf;
+  font-size: 1.3rem;
+  margin: 20px;
+  margin-top: 10px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  font-family: 'Luckiest Guy', cursive;
+  color: #666666;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+.fa-close:hover {
+  cursor: pointer;
+  color: #ff467f;
+}
+.price {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 1.9rem;
+
+  margin: 0px 15px 24px 20px;
+  color: #232323;
+}
+.add {
+  display: flex;
+  justify-content: start;
+}
+#tentacles {
+  margin-left: 20px;
+  width: 7rem;
+  height: 55px;
+  border-radius: 35px;
+  outline: none;
+  border: #666666 solid 3px;
+}
+.add-to-cart {
+  margin-left: 23px;
+  cursor: pointer;
+  width: 200px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background-color: #ff467f;
+  color: white;
+  border: white;
+  border-radius: 35px;
+  outline: none;
+  transition: all 0.3s;
+}
+.add-to-cart:hover {
+  background-color: black;
+  color: #ff467f;
+}
+.fa-shopping-cart {
+  padding: 8px;
+}
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #666666 1px solid;
+  margin: 10px;
+  height: 45%;
+}
+.pre-order {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 1.4rem;
+}
+.date {
+  font-family: 'Luckiest Guy', cursive;
+  margin: 0px;
+  font-size: 2.3rem;
+  margin-top: -10px;
+  color: #ff467f;
+  margin-bottom: 20px;
+}
+.fa-arrow-right {
+  color: white;
+}
+.fa-arrow-left {
+  color: white;
+}
+.free {
+  width: 100%;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  background-color: #ff467f;
+  color: white;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 1.6rem;
+  margin-top: 30px;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 100px;
+}
+.one {
+  display: flex;
+  border: #d3d3d3 2px solid;
+  border-bottom: none;
+  width: 100%;
+  height: 50%;
+}
+.two {
+  border: #d3d3d3 2px solid;
+
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+.table1 {
+  font-family: 'Luckiest Guy', cursive;
+  margin-left: 15px;
+  font-size: 1.13rem;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.table2 {
+  font-family: 'Luckiest Guy', cursive;
+  margin-left: 15px;
+  font-size: 1.13rem;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: 50%;
+}
+.table3 {
+  font-family: 'Luckiest Guy', cursive;
+  margin-left: 15px;
+  font-size: 1.13rem;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  height: 50%;
+}
+.table4 {
+  margin-left: 15px;
+  font-size: 1.13rem;
+  font-family: 'Luckiest Guy', cursive;
+  display: flex;
+  width: 50%;
+  height: 50%;
+  justify-content: space-between;
+  display: flex;
+}
+.grey {
+  color: #666666;
+}
+.text-jambo {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 400px;
+}
+.collectible {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 1.9rem;
+}
+.text-p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.4rem;
+}
+.add-to-cart-div {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+}
+.cartdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff467f;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  font-family: 'Luckiest Guy', cursive;
+  padding-left: 10px;
+  color: white;
+  font-size: 1.4rem;
+  clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
+}
+.btnCart {
+  margin-right: 20px;
+  width: 180px;
+  height: 60px;
+  border-radius: 30px;
+  outline: none;
+  border: 2px solid white;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: 0.15s;
+}
+.btnCart:hover {
+  background-color: black;
+  color: white;
+  border: black 2px solid;
+}
+
+@media only screen and (min-width: 950px) {
+  .container-main {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 75%;
+    width: 90%;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  body {
+    background-color: #666666;
+  }
+
+  .photos-div {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #666666;
+
+    height: 100%;
+    justify-content: center;
+  }
+  .nala {
+    min-width: 250px;
+    width: 350px;
+
+    order: 1;
+  }
+  .main {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .info-div {
+    height: 100%;
+    overflow: scroll;
+  }
+  .images-slide {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    order: 2;
+    height: 30%;
+  }
+  .main-image {
+    width: 100%;
+    height: 70%;
+  }
+  .text-jambo {
+    overflow: auto;
+  }
+  .nala-box {
+    width: 100px;
+    cursor: pointer;
+  }
+  .nala-character {
+    width: 100px;
+    cursor: pointer;
+  }
+  .text-p {
+    font-size: 1.6rem;
+  }
+  .fa-close {
+    color: white;
+    font-size: 4rem;
+  }
+
+  .fa-arrow-right {
+    position: absolute;
+    color: black;
+    top: 315px;
+    right: -20px;
+    cursor: pointer;
+    width: 33px;
+  }
+  .fa-arrow-left {
+    position: absolute;
+    color: black;
+    top: 315px;
+    left: -16px;
+    cursor: pointer;
+    width: 33px;
+  }
+  .cartdiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff467f;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    font-family: 'Luckiest Guy', cursive;
+    padding-left: 10px;
+    color: white;
+    font-size: 1.8rem;
+  }
+  .btnCart {
+    margin-right: 20px;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: 0.15s;
+  }
+  .btnCart:hover {
+    background-color: black;
+    color: white;
+    border: black 2px solid;
+  }
+}

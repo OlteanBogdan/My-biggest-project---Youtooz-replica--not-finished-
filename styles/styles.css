@@ -1,0 +1,799 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 88vh;
+}
+.ww {
+  position: absolute;
+  font-family: 'Luckiest Guy', cursive;
+  min-height: 1rem;
+  font-size: 2.57rem;
+  margin-top: 33px;
+  margin-bottom: 10px;
+  transform: skewY(7deg);
+  color: #ff704d;
+  text-shadow: 8px 3px black;
+}
+.doge {
+  color: #ffd480;
+  position: absolute;
+  font-family: 'Luckiest Guy', cursive;
+  min-height: 1rem;
+  font-size: 3rem;
+  margin-top: 23px;
+  margin-bottom: 10px;
+  transform: skewY(7deg);
+  text-shadow: 8px 6px black;
+}
+.parent-1 {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('/images/90c5343a00cf098851f2fbea066b1bcb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50%;
+  border-bottom: 3px solid black;
+}
+.parent-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('/images/BTASBackgrounds_blog_5ea37f9496e275.95660683.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50%;
+}
+.image-children1 {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  align-items: flex-end;
+  justify-content: center;
+}
+.button-children1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+}
+
+.image-children2 {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  align-items: flex-end;
+  justify-content: center;
+}
+.button-children2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+}
+.first-container-image {
+  max-width: 260px;
+  transition: 0.3s;
+}
+.second-container-image {
+  max-width: 260px;
+  transition: 0.3s;
+}
+.first-button {
+  z-index: 3;
+  margin-bottom: 20px;
+  width: 120px;
+  font-size: 1.3rem;
+  font-family: 'Luckiest Guy', cursive;
+  height: 35px;
+  color: white;
+  background-color: black;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.first-button:hover {
+  background-color: white;
+  color: black;
+}
+.second-button {
+  z-index: 3;
+  margin-bottom: 20px;
+  width: 120px;
+  font-size: 1.3rem;
+  font-family: 'Luckiest Guy', cursive;
+  height: 35px;
+  color: white;
+  background-color: black;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.second-button:hover {
+  background-color: white;
+  color: black;
+}
+.first-container-image:hover {
+  transform: scale(1.07);
+}
+.second-container-image:hover {
+  transform: scale(1.07);
+}
+.livenow {
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  margin: 0;
+  font-family: 'Luckiest Guy', cursive;
+  color: #ff467f;
+  font-size: 2.3rem;
+  transform: skewY(2deg);
+}
+.showcase-container {
+  width: 100%;
+  height: 260vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.showcase-item {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 30rem;
+}
+.image-card1 {
+  display: flex;
+  justify-content: center;
+  background: rgb(184, 184, 184);
+  background: linear-gradient(
+    17deg,
+    rgba(184, 184, 184, 1) 19%,
+    rgba(41, 41, 41, 1) 100%
+  );
+  height: 70%;
+  width: 100%;
+  transition: 0.3s;
+  clip-path: polygon(2% 5%, 97% 3%, 95% 96%, 7% 97%);
+}
+.image-card1:hover {
+  clip-path: polygon(4% 6%, 97% 2%, 96% 96%, 4% 98%);
+}
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 100%;
+  height: 30%;
+}
+.image-figurine1 {
+  min-width: 230px;
+  max-width: 230px;
+  width: 60%;
+
+  transition: 0.3s;
+}
+.button-buy1 {
+  transition: 0.3s;
+  position: relative;
+  z-index: 7;
+  width: 180px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(106, 106, 106, 1) 66%
+  );
+  color: white;
+  font-size: 1.26rem;
+  font-family: 'Luckiest Guy', cursive;
+  border: black 2px solid;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.button-buy1:hover {
+  background: rgb(0, 0, 0);
+
+  background: linear-gradient(
+    90deg,
+    rgba(106, 106, 106, 1) 0,
+    rgba(0, 0, 0, 1) 66%
+  );
+}
+.name1 {
+  margin: 15px;
+  letter-spacing: px;
+  font-size: 1.96rem;
+  font-family: 'Luckiest Guy', cursive;
+  color: rgba(106, 106, 106, 1);
+  text-shadow: 3px 3px black;
+}
+.price1 {
+  color: rgba(106, 106, 106, 1);
+  text-shadow: 3px 3px black;
+  font-size: 1.8rem;
+  font-family: 'Luckiest Guy', cursive;
+}
+.image-figurine1:hover {
+  transform: scale(0.85);
+  cursor: pointer;
+}
+.image-card2 {
+  display: flex;
+  justify-content: center;
+  background: rgb(0, 80, 157);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 80, 157, 1) 28%,
+    rgba(134, 199, 241, 1) 100%
+  );
+  height: 70%;
+  width: 100%;
+  clip-path: polygon(9% 6%, 94% 2%, 95% 94%, 5% 96%);
+
+  transition: 0.3s;
+}
+.image-card2:hover {
+  clip-path: polygon(4% 0, 97% 3%, 94% 99%, 6% 99%);
+}
+.image-figurine2 {
+  min-width: 230px;
+  max-width: 230px;
+  width: 60%;
+
+  transition: 0.3s;
+}
+.button-buy2 {
+  position: relative;
+  z-index: 7;
+  width: 180px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 80, 157, 1) 28%,
+    rgba(134, 199, 241, 1) 100%
+  );
+  color: white;
+  font-size: 1.26rem;
+  font-family: 'Luckiest Guy', cursive;
+  border: black 2px solid;
+  border-radius: 25px;
+}
+.button-buy2:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(134, 199, 241, 1) 28%,
+    rgba(0, 80, 157, 1) 100%
+  );
+}
+.rowof2 {
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name2 {
+  margin: 15px;
+  letter-spacing: px;
+  font-size: 1.96rem;
+  font-family: 'Luckiest Guy', cursive;
+  color: rgba(134, 199, 241, 1);
+  text-shadow: 3px 3px black;
+}
+.price2 {
+  color: rgba(134, 199, 241, 1);
+  font-size: 1.8rem;
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: 3px 3px black;
+}
+.image-figurine2:hover {
+  transform: scale(0.85);
+  cursor: pointer;
+}
+.image-card3 {
+  display: flex;
+  justify-content: center;
+  background: rgb(247, 144, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(247, 144, 0, 1) 21%,
+    rgba(250, 0, 242, 1) 100%
+  );
+  clip-path: polygon(6% 5%, 93% 4%, 97% 99%, 2% 98%);
+  height: 70%;
+  width: 100%;
+  transition: 0.3s;
+}
+.image-card3:hover {
+  clip-path: polygon(1% 6%, 97% 1%, 99% 100%, 5% 98%);
+}
+.image-figurine3 {
+  min-width: 230px;
+  max-width: 230px;
+  width: 60%;
+
+  transition: 0.3s;
+}
+.button-buy3 {
+  position: relative;
+  z-index: 7;
+  width: 180px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(
+    45deg,
+    rgba(247, 144, 0, 1) 21%,
+    rgba(250, 0, 242, 1) 100%
+  );
+  color: white;
+  font-size: 1.26rem;
+  font-family: 'Luckiest Guy', cursive;
+  border: black 2px solid;
+  border-radius: 25px;
+}
+
+.button-buy3:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(250, 0, 242, 1) 21%,
+    rgba(247, 144, 0, 1) 100%
+  );
+}
+.name3 {
+  margin: 15px;
+  letter-spacing: px;
+  font-size: 1.96rem;
+  font-family: 'Luckiest Guy', cursive;
+  color: rgba(250, 0, 242, 1);
+  text-shadow: 3px 3px black;
+}
+.price3 {
+  color: rgba(250, 0, 242, 1);
+  font-size: 1.8rem;
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: 3px 3px black;
+}
+.image-figurine3:hover {
+  transform: scale(0.85);
+  cursor: pointer;
+}
+.image-card4 {
+  display: flex;
+  justify-content: center;
+  background: rgb(255, 178, 16);
+  background: linear-gradient(
+    14deg,
+    rgba(255, 178, 16, 1) 6%,
+    rgba(249, 198, 109, 1) 100%
+  );
+  height: 70%;
+  transition: 0.3s;
+  width: 100%;
+  clip-path: polygon(0 4%, 96% 6%, 96% 96%, 4% 98%);
+}
+.image-card4:hover {
+  clip-path: polygon(1% 2%, 99% 2%, 98% 100%, 2% 99%);
+}
+.image-figurine4 {
+  min-width: 230px;
+  max-width: 230px;
+  width: 60%;
+
+  transition: 0.3s;
+}
+.button-buy4 {
+  position: relative;
+  z-index: 7;
+  width: 180px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  background: rgb(255, 178, 16);
+  background: linear-gradient(
+    14deg,
+    rgba(255, 178, 16, 1) 6%,
+    rgba(249, 198, 109, 1) 100%
+  );
+  color: white;
+  font-size: 1.26rem;
+  font-family: 'Luckiest Guy', cursive;
+  border: black 2px solid;
+  border-radius: 25px;
+}
+.button-buy4:hover {
+  background: linear-gradient(
+    14deg,
+    rgba(249, 198, 109, 1) 6%,
+    rgba(255, 178, 16, 1) 100%
+  );
+}
+.name4 {
+  margin: 15px;
+  letter-spacing: px;
+  font-size: 1.96rem;
+  font-family: 'Luckiest Guy', cursive;
+  color: rgba(249, 198, 109, 1);
+  text-shadow: 3px 3px black;
+}
+.price4 {
+  color: rgba(249, 198, 109, 1);
+  font-size: 1.8rem;
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: 3px 3px black;
+}
+.image-figurine4:hover {
+  transform: scale(0.85);
+  cursor: pointer;
+}
+.image-card5 {
+  display: flex;
+  justify-content: center;
+  background: rgb(161, 156, 159);
+  background: linear-gradient(
+    14deg,
+    rgba(161, 156, 159, 1) 7%,
+    rgba(187, 68, 0, 1) 100%
+  );
+  height: 70%;
+  transition: 0.3s;
+  width: 100%;
+  clip-path: polygon(1% 2%, 99% 2%, 98% 100%, 2% 99%);
+}
+.image-card5:hover {
+  clip-path: polygon(3% 2%, 99% 4%, 97% 98%, 3% 96%);
+}
+.image-figurine5 {
+  min-width: 300px;
+  max-width: 340px;
+  width: 60%;
+
+  transition: 0.3s;
+}
+.button-buy5 {
+  position: relative;
+  z-index: 7;
+  width: 180px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(
+    14deg,
+    rgba(161, 156, 159, 1) 7%,
+    rgba(187, 68, 0, 1) 100%
+  );
+  color: white;
+  font-size: 1.26rem;
+  font-family: 'Luckiest Guy', cursive;
+  border: black 2px solid;
+  border-radius: 25px;
+}
+.button-buy5:hover {
+  background: linear-gradient(
+    14deg,
+    rgba(187, 68, 0, 1) 7%,
+    rgba(161, 156, 159, 1) 100%
+  );
+}
+.column2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.name5 {
+  margin: 15px;
+  letter-spacing: px;
+  font-size: 1.96rem;
+  font-family: 'Luckiest Guy', cursive;
+  color: rgba(187, 68, 0, 1);
+  text-shadow: 3px 3px black;
+}
+.price5 {
+  color: rgba(187, 68, 0, 1);
+  font-size: 1.8rem;
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: 3px 3px black;
+}
+.image-figurine5:hover {
+  transform: scale(0.85);
+
+  cursor: pointer;
+}
+.image-card6 {
+  display: flex;
+  justify-content: center;
+  background: rgb(0, 45, 133);
+  background: linear-gradient(
+    14deg,
+    rgba(0, 45, 133, 1) 7%,
+    rgba(255, 163, 0, 1) 100%
+  );
+  height: 70%;
+  clip-path: polygon(2% 3%, 99% 3%, 95% 100%, 6% 100%);
+  width: 100%;
+  transition: 0.3s;
+}
+.image-card6:hover {
+  clip-path: polygon(2% 4%, 99% 0, 95% 97%, 4% 100%);
+}
+.image-figurine6 {
+  min-width: 230px;
+  max-width: 230px;
+  width: 60%;
+
+  transition: 0.3s;
+}
+.button-buy6 {
+  position: relative;
+  z-index: 7;
+  width: 180px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(
+    14deg,
+    rgba(0, 45, 133, 1) 7%,
+    rgba(255, 163, 0, 1) 100%
+  );
+  color: white;
+  font-size: 1.26rem;
+  font-family: 'Luckiest Guy', cursive;
+  border: black 2px solid;
+  border-radius: 25px;
+}
+.button-buy6:hover {
+  background: linear-gradient(
+    14deg,
+    rgba(255, 163, 0, 1) 7%,
+    rgba(0, 45, 133, 1) 100%
+  );
+}
+
+.name6 {
+  margin: 15px;
+  letter-spacing: px;
+  font-size: 1.96rem;
+  font-family: 'Luckiest Guy', cursive;
+  color: rgba(255, 163, 0, 1);
+  text-shadow: 3px 3px black;
+}
+.price6 {
+  color: rgba(255, 163, 0, 1);
+  font-size: 1.8rem;
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: 3px 3px black;
+}
+.image-figurine6:hover {
+  transform: scale(0.85);
+  cursor: pointer;
+}
+.more {
+  position: absolute;
+  bottom: -13px;
+  z-index: 3;
+  background-color: white;
+  color: #ff0066;
+  width: 160px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 25px;
+  outline: none;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Luckiest Guy', cursive;
+  position: relative;
+  margin-bottom: -10px;
+}
+.more:hover {
+  background-color: #ff467f;
+  color: white;
+}
+footer {
+  width: 100%;
+  background-color: #ff467f;
+  border-top: 3px solid black;
+}
+
+footer {
+  width: 100%;
+}
+.socialmedia {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#a {
+  color: white;
+  font-size: 50px;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 25px 2px;
+}
+#a:hover {
+  color: #ff99c2;
+}
+.items {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  height: 70%;
+  font-size: 22px;
+  line-height: 70px;
+  font-family: 'Luckiest Guy';
+}
+
+.infotext:hover {
+  color: #ff99c2;
+}
+.shipping:hover {
+  color: #ff99c2;
+}
+
+.contactus:hover {
+  color: #ff99c2;
+}
+.figurines {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  font-family: 'Luckiest Guy';
+  font-size: 24px;
+  color: #ff99c2;
+}
+.texts p:hover {
+  color: white;
+}
+.texts p {
+  cursor: pointer;
+}
+@media only screen and (min-width: 1050px) {
+  .container {
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+
+  .parent-1 {
+    height: 70vh;
+    border-right: black 4px solid;
+    border-bottom: none;
+  }
+  .parent-2 {
+    height: 70vh;
+    border-bottom: none;
+  }
+  .first-container-image {
+    max-width: 430px;
+    transition: 0.3s;
+  }
+  .second-container-image {
+    max-width: 430px;
+    transition: 0.3s;
+  }
+  .first-button {
+    z-index: 3;
+    margin-bottom: 20px;
+    width: 200px;
+    font-size: 1.7rem;
+    font-family: 'Luckiest Guy', cursive;
+    height: 55px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .second-button {
+    z-index: 3;
+    margin-bottom: 20px;
+    width: 200px;
+    font-size: 1.7rem;
+    font-family: 'Luckiest Guy', cursive;
+    height: 55px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .showcase-container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .divwithdivs {
+    display: flex;
+    height: 40vh;
+  }
+  .socialmedia {
+    width: 33%;
+    display: flex;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .texts {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+  }
+  .about {
+    width: 33%;
+  }
+  .showcase-item {
+  }
+  .ww {
+    font-size: 4.4rem;
+  }
+  .doge {
+    font-size: 4.5rem;
+  }
+  .first-button {
+  }
+  .showcase-item {
+    width: 25%;
+    padding-bottom: 35px;
+  }
+  .column2 {
+    flex-direction: row;
+    width: 90%;
+
+    justify-content: space-between;
+  }
+}
